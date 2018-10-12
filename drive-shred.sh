@@ -13,7 +13,7 @@ if [ $device = "sda" ]
 		read spaceholder
 fi
 
-echo "Str + C to exit or 'y' to shred"
+echo "Ctl + C to exit or 'y' to shred"
 read EXIT
 
 
@@ -32,7 +32,7 @@ EOF
 		echo
 		echo "Empty partition table created!"
 		echo
-		echo "Press Crtl + C to EXIT"
+		echo "Press Ctl + C to EXIT"
 		echo "'y' to shred" $platte "again"
 		echo "'e' to change" $platte "to another device"
 
